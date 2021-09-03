@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:8.0
 
 # Setup database
 RUN mkdir -p /images/
