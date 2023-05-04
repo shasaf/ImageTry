@@ -1,4 +1,4 @@
-FROM postgres
+FROM postgres:15-bullseye
 
 # Copy the database initialize script: 
 # Contents of /docker-entrypoint-initdb.d are run on startup
