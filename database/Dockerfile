@@ -1,4 +1,4 @@
-FROM postgres
+FROM postgres:16-bookworm
 
 # Copy the database initialize script: 
 # Contents of /docker-entrypoint-initdb.d are run on startup
