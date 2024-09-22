@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:9.0.1-oraclelinux9
 
 # Setup database
 RUN mkdir -p /images/
